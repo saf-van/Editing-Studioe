@@ -1,0 +1,6 @@
+// Mock middleware for user authentication and role assignment
+const mockAuthMiddleware = (req, res, next) => {
+    // Mock user role (Admin or User)
+    req.user = { role: 'admin' }; // Change to 'user' for Teacher/Student roles (mock)
+    next();
+};
