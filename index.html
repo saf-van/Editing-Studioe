@@ -103,6 +103,49 @@
       border-radius: 5px;
       font-size: 12px;
     }
+    .plans {
+      margin: 40px;
+    }
+    .plan {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .plan-header {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .plan-subheader {
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .plan-price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+      margin: 10px 0;
+    }
+    .plan-button {
+      background-color: #6c27b3;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    .plan-features {
+      list-style: none;
+      padding: 0;
+    }
+    .plan-features li {
+      margin: 5px 0;
+      color: #333;
+    }
   </style>
 </head>
 <body>
@@ -144,6 +187,31 @@
       <p class="price">₹609 <span style="text-decoration: line-through; color: grey;">₹939</span>
       </p>
       <div class="badge">Premium</div>
+    </div>
+  </div>
+  <div class="plans">
+    <div class="plan">
+      <div class="plan-header">Personal Plan</div>
+      <div class="plan-subheader">For you</div>
+      <div class="plan-subheader">Individual</div>
+      <div class="plan-price">Starting at ₹850 per month</div>
+      <button class="plan-button">Start subscription →</button>
+      <ul class="plan-features">
+        <li>Access to 12,000+ top courses</li>
+        <li>Certification prep</li>
+        <li>Goal-focused recommendations</li>
+        <li>AI-powered coding exercises</li>
+      </ul>
+    </div>
+    <div class="plan">
+      <div class="plan-header">Team Plan</div>
+      <div class="plan-subheader">For your team</div>
+      <div class="plan-subheader">2 to 20 people</div>
+    </div>
+    <div class="plan">
+      <div class="plan-header">Enterprise Plan</div>
+      <div class="plan-subheader">For your whole organization</div>
+      <div class="plan-subheader">More than 20 people</div>
     </div>
   </div>
 </body>
